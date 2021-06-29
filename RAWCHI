@@ -1,0 +1,18 @@
+pkg update -y
+
+pkg upgrade -y
+
+
+pkg install python -y
+
+
+pkg install python2
+
+pkg install git -y
+
+
+git clone https://github.com/968hacker/relax
+
+cd relax
+
+python3 relax.py
